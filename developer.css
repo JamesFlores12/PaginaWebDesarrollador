@@ -1,0 +1,123 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.inicio, .acerca, .especializacion, .contacto {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.inicio {
+  background-color: #f8f8f8; /* Fondo gris claro */
+}
+
+.inicio h1 {
+  font-size: 36px;
+  color: #333;
+  font-weight: bold;
+}
+
+.acerca h2, .especializacion h2, .contacto h2 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+.acerca p, .especializacion p, .contacto p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.areas-especializacion {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.area-especializacion {
+  text-align: center;
+  width: 45%;
+  margin: 20px;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+}
+
+.area-especializacion img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.area-especializacion h3 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+.contacto-info, .redes-sociales {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.redes-sociales a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #1b1b1b;
+  color: #fff;
+}
+
+.redes-sociales img {
+  max-width: 40px;
+  margin: 0 10px;
+}
+.logo img {
+  max-width: 40px;
+  margin: 0 10px;
+}
+
